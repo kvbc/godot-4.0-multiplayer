@@ -1,0 +1,22 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="mp-survival"
+run/main_scene="res://Scenes/AL_HUD.tscn"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+ALHUD="*res://Scenes/AL_HUD.tscn"
+ALWorld="*res://Scenes/AL_World.tscn"
+ALRPC="*res://Scripts/AL_RPC.gd"
